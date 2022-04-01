@@ -1,0 +1,299 @@
+/* I. GENERAL */
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------ */
+
+/* II. HEADER */
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background: #F6D951;
+}
+/* A. HEADER/NAVIGATION */
+nav{
+	display: flex;
+	padding: 0px 50px;
+	justify-content: space-between;
+	align-items: center;
+	border-style: none none solid none;
+	border-color: black;
+	background: white;
+}
+/* 1.HEADER/NAVIGATION/IMAGE */
+nav img{
+	padding: 0px 0px;
+	width: 50px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: medium;
+}
+
+/* 2. HEADER/NAVIGATION/LINK */
+.nav-link{
+	flex: 1;
+	text-align: right;
+}
+
+.nav-link ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	
+}
+
+.nav-link ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Kanit', sans-serif;
+	transition: 0.3s;
+}
+
+.nav-link ul li a:hover{
+	color: red;
+}
+
+/* 3. HEADER/NAVIGATION/TITLE */
+
+.title{
+	flex: 1;
+	text-align: left;
+	margin: 30px 50px;
+}
+
+.title ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 12px;
+	position: relative;
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Kanit', sans-serif;
+	transition: all 0.2s ease-in;
+}
+
+.title ul li:hover{
+	color: #000;
+	text-shadow: 1px 1px 0px #555;
+	transition: all 0.2s ease-in;
+}
+
+/* B. HEADER/CONTENT */
+.header-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 100px 80px 0px 80px;
+	border-style: none none solid none;
+	border-width: 2px;
+
+}
+
+/* 1. HEADER/CONTENT/H1 */
+.header-content h1{
+	font-size: 50px;
+	font-family: 'Kanit', sans-serif;
+	display: inline-block;
+	margin: 0px 0px 100px 80px;
+}
+
+.highlight{
+	color: #E5383B;
+	font-family: 'Kanit', sans-serif;
+}
+
+/* 2. HEADER/CONTENT/IMG */
+.header-content img{
+	max-width: 35%;
+	margin: 0px 0px 100px 80px;
+}
+
+/* ------------------------------------ */
+
+/* III. MAIN */
+.main{
+	background: #F6D951;
+}
+
+/* A. MAIN/TITLE */
+
+.main h1{
+	padding: 100px 150px;
+	font-size: 45px;
+	font-family: 'Kanit:wght@500', sans-serif;
+}
+
+/* A. MAIN/IMG */
+.opening-case{
+	max-width: 90%;
+	padding: 0px 0px 0px 100px;
+}
+
+.mockup{
+	width: 100%;
+	padding: 10px 0px 0px 0px;
+	background: #F6D951;
+}
+
+/* A. MAIN/CHALLENGE */
+
+.challenge{
+	margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 100px 0px;
+}
+
+.title-challenge h3{
+	font-family: 'Kanit', sans-serif;
+	font-size: 40px;
+	padding: 30px 0px 0px 70px;
+}
+
+.content-challenge{
+	flex-basis: 50%;
+	font-size: 21.5px;
+	text-align: justify;
+}
+
+/* ------------------------------------ */
+
+/* IV. QUOTE */
+
+.quote{
+	font-size: 100px;
+	font-family: 'Kanit', sans-serif;
+	padding: 100px 0px 0px 210px;
+	background: #F6D951;
+}
+
+/* ------------------------------------ */
+
+/* V. SLIDE ONE */
+
+.slide-one{
+	background: #F6D951;
+}
+
+.slide-one img{
+	padding: 100px 100px 100px 170px;
+	width: 75%;
+}
+
+/* A. SLIDE ONE/TEXT */
+
+.slide-one h3{
+	font-family: 'Kanit', sans-serif;
+	font-size: 40px;
+	padding: 0px 170px 0px 170px;
+}
+
+.slide-one p{
+	padding: 10px 170px 50px 170px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21.5px;
+	text-align: justify;
+}
+
+/* ------------------------------------ */
+
+/* VI. SLIDE TWO */
+
+.testimoni{
+	padding: 50px 0px 100px 170px;
+	background: #F6D951;
+}
+
+.testimoni-img{
+	padding: 0px 100px 0px 0px;
+}
+/* SLIDE TWO/TEXT */
+.up{
+	padding: 0px 35px 0px 0px;
+	width: 45%
+}
+
+.down{
+	width: 45%;
+}
+
+.slide-two{
+	padding: 100px 0px 0px 0px;
+}
+
+.slide-two h3{
+	font-family: 'Kanit', sans-serif;
+	font-size: 40px;
+}
+
+.slide-two p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 21.5px;
+	text-align: justify;
+	padding: 10px 170px 0px 0px;
+}
+
+/* VII. SLIDE THREE */
+
+.slide-three{
+	background: #F6D951;
+	display: flex;
+	padding: 0px 170px 100px 170px;
+}
+
+.text-3{
+	padding: 200px 0px 0px 50px;
+}
+
+.text-3 h3{
+	padding: 0px 0px 10px 0px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 40px;
+}
+
+.text-3 p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 21.5px;
+	text-align: justify;
+
+}
+
+/* IX. SLIDE FOUR */
+
+.slide-four{
+	background: #F6D951;
+	padding: 0px 170px 100px 170px;
+}
+
+.text-4{
+	display: flex;
+	padding: 50px 0px 0px 0px;
+}
+
+ .text-4 h3{
+	font-family: 'Kanit', sans-serif;
+	font-size: 40px;
+	padding: 30px 0px 0px 70px;
+}
+
+.text-4 p{
+	flex-basis: 50%;
+	font-size: 21.5px;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	padding: 30px 0px 0px 0px;
+}
+
+/* X. PREVIEW */
+
+.preview{
+	background: #F6D951;
+	padding: 100px 100px 100px 100px;
+}
